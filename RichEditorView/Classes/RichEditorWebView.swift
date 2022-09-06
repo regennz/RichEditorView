@@ -21,7 +21,7 @@ public class RichEditorWebView: WKWebView {
         return accessoryView
     }
 
-    var keyboardDisplayRequiresUserAction: Bool? {
+    public var keyboardDisplayRequiresUserAction: Bool? {
         get {
             return _keyboardDisplayRequiresUseraction
         }
